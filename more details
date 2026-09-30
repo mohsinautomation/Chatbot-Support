@@ -1,0 +1,102 @@
+🔄 Example Conversation
+Customer
+
+What is your return policy?
+
+AI Support Bot
+
+You can return the product within 7 days of delivery. The item must be unused, in its original packaging, and include the invoice.
+
+Customer
+
+Can you check my order status?
+
+AI Support Bot
+
+The AI Agent uses the order-status tool to retrieve the customer's order information and provides the available status.
+
+Customer
+
+I want to speak with a human.
+
+AI Support Bot
+
+The workflow can trigger the human handoff process and notify the support team.
+
+🔐 Safety & Business Rules
+
+The chatbot is designed with business-specific rules such as:
+
+Use company-provided information for support answers.
+Do not invent unsupported policies.
+Do not provide unauthorized refunds or discounts.
+Do not expose another customer's information.
+Stay within the customer-support scope.
+Escalate conversations when human assistance is required.
+📊 Workflow Components
+Knowledge Ingestion
+FAQ Upload Form
+Extract Text
+Default Data Loader
+Markdown Text Splitter
+Google Gemini Embeddings
+Simple Vector Store
+AI Support
+WhatsApp Trigger
+AI Agent
+Groq Chat Model
+Simple Memory
+FAQ Search
+Product Catalog
+Order Status
+Create Order
+Human Handoff
+Chat Logging
+WhatsApp Response
+🎯 Business Benefits
+
+This automation can help businesses:
+
+Reduce repetitive support questions
+Provide 24/7 automated support
+Reduce response time
+Handle multiple customer conversations
+Retrieve information from company documents
+Automate order-related queries
+Escalate complex conversations to human agents
+🔮 Future Improvements
+
+Potential production improvements include:
+
+Facebook Messenger integration
+Dedicated admin dashboard
+Customer satisfaction tracking
+Support analytics dashboard
+Advanced conversation monitoring
+Error handling and retry mechanisms
+Rate-limit handling
+Production-grade database
+Advanced authentication and authorization
+Scalable vector database
+More detailed customer analytics
+📸 Workflow
+
+The complete n8n workflow includes the RAG ingestion pipeline, AI Agent, WhatsApp integration, product catalog, order management, chat logging, and human handoff.
+
+👨‍💻 Author
+
+Mohsin Ahmed
+
+AI Automation Engineer
+
+Skills
+n8n
+AI Agents
+RAG
+LLM APIs
+REST APIs
+Webhooks
+Google Sheets
+WhatsApp Automation
+Vector Search
+Workflow Automation
